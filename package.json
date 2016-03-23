@@ -1,0 +1,20 @@
+{
+  "name": "ColorPlayer",
+  "description": "A music player online in console by NodeJs.",
+  "version": "1.0.0",
+  "keywords": [
+    "player",
+    "music",
+    "online music player",
+    "163.music.com"
+  ],
+  "author": {
+    "name": "Arrowing",
+    "email": "likenovel@qq.com"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "license": "MIT"
+}
