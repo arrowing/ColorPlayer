@@ -16,5 +16,19 @@
   "engines": {
     "node": ">=0.8.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "http-proxy": "^1.13.2",
+    "inquirer": "^0.12.0",
+    "node-slimerjs": "^1.0.1",
+    "phantom": "^2.0.10",
+    "request": "^2.70.0",
+    "sox-play": "0.0.2",
+    "underscore": "^1.8.3"
+  },
+  "bin": {
+    "test": "test.js"
+  }
 }
