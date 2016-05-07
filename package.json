@@ -29,6 +29,6 @@
     "underscore": "^1.8.3"
   },
   "bin": {
-    "test": "test.js"
+    "cPlayer": "index.js"
   }
 }
