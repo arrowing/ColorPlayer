@@ -22,7 +22,8 @@
     "commander": "^2.9.0",
     "http-proxy": "^1.13.2",
     "inquirer": "^0.12.0",
-    "phantom": "^2.0.10"
+    "phantom": "^2.0.10",
+    "request": "^2.70.0"
   },
   "bin": {
     "cPlayer": "index.js"
