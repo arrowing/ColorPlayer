@@ -1,4 +1,4 @@
-# ColorPlayer
+## ColorPlayer
 一款基于NodeJs的命令行在线音乐播放器，目前支持网易云音乐的播放。
 
 ## 全局变量与驱动问题
@@ -6,7 +6,7 @@
 请确保您已安装SoX音频工具，下载地址是：http://sox.sourceforge.net/
 安装完SoX后，将其目录放置全局环境中。
 
-### 驱动设置：
+## 驱动设置：
 
 Windows：（先再全局环境里添加，然后在cmd下输入set AUDIODRIVER=waveaudio即可。）
 set AUDIODRIVER=waveaudio
@@ -16,8 +16,8 @@ set AUDIODRIVER=waveaudio
 - set AUDIODEV=/dev/dsp2
 - set AUDIODEV=hw:0
 
-=================================================================
-注：Windows下还需要将SoX目录下的sox.exe拷贝到play.exe与rec.exe
+#### 注意事项（限于windows环境）
+Windows下还需要将SoX目录下的sox.exe拷贝到play.exe与rec.exe
 - copy sox.exe soxi.exe
 - copy sox.exe play.exe
 - copy sox.exe rec.exe
