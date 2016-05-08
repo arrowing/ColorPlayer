@@ -1,6 +1,13 @@
 ## ColorPlayer
 一款基于NodeJs的命令行在线音乐播放器，目前支持网易云音乐的播放。
 
+## 软件界面
+- 榜单列表                       
+![榜单列表](https://raw.githubusercontent.com/arrowing/ColorPlayer/master/interfaces/top_list.png "榜单列表")
+
+- 歌曲列表                      
+![歌曲列表](https://raw.githubusercontent.com/arrowing/ColorPlayer/master/interfaces/music_list.png "歌曲列表")
+
 ## 使用须知
 下载代码后，在其根目录下执行npm link，将会创建一个cPlayer命令，然后就可以启动该播放软件了。
 > **cPlayer**
